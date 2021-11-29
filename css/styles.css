@@ -17,14 +17,23 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
+	background-color: rgb(252, 152, 178); 
 }
+
+table, th, td{
+	background-color: white;
+	 border: 1px solid #888888;
+	 padding: 5px;
+}
+
 
 #container {
     width: 930px;
     border-width: 1px;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgb(252, 152, 178);
+	border-radius: 25px;
+	
 }
 
 
@@ -35,13 +44,16 @@ header {
     text-align: center;
     border: 1px solid #888888;
     box-shadow: 15px 15px 5px 0 #888888;
-    border-radius: 25px;  	
+    border-radius: 25px; 
+	background-color: #2b325c; 	
 }
 
 nav {
-    width: 200px;
-    margin: 0 5px 0 5px; 
-    padding: 25px 10px 0 10px;
+	border-radius: 25px;
+    width: 230px;
+	height:650px;
+    margin: 0; 
+    padding: 0;
     float: left;
     text-align: center;
 }
@@ -51,17 +63,16 @@ nav ul {
     list-style: none;
 }
 
-nav ul li a {
+nav ul li a { 
     padding: 5px;
-    color: gray;
+    color: black;
     text-decoration: none;
     display:block;
 }
 
 nav ul li a:hover {
-    background: gray;
     border-radius: 10px;
-    color: white;
+    color: grey;
 }
 
 #main {
@@ -70,12 +81,13 @@ nav ul li a:hover {
     float: left;
     color: black;
     border-left: 2px solid;
-    border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    border-right: 2px solid; 
+	height: 630px;
 }
 
 #main p {
     text-indent: 1.5em;
+	font-family: fantasy, papyrus;
 }
 
 figure{
@@ -88,36 +100,41 @@ figcaption {
 }
 
 aside {
-    width: 200px;
-    margin: 0 5px 0 5px;
-    padding: 10px;
+	border-radius: 25px;
+	height: 650px;
+    width: 230px;
+    margin: 0;
+    padding: 0px;
     float: right;
 }
 
 aside p {
     font-style: italic;
     font-size: 0.9em;
+	padding-left: 8px;
 }
 
 h2 {
     font-size: 1.4em;
+	font-family: Fantasy, Papyrus;
     text-align: center;
     padding-bottom: 0.5em;
 }
 
 h3 {
+	font-family: Fantasy, Papyrus;
     text-align: center;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
 
+
 footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: gray;
     clear: both;
-    color: wheat;
+    color: grey;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -129,18 +146,20 @@ footer {
     margin-bottom: 10px;
     border: 2px solid;
     border-radius: 25px;
+	background-color: rgb(136, 225, 221);
 }/* navigation for footer */
 footer a:link {
-    color: white;
+    color: grey;
     text-decoration: none;
 }
 
 footer a:visited {
-    color: navy;
+    color: grey;
     background-color: grey;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+	color: black;
 }
