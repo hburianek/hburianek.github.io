@@ -26,6 +26,13 @@ table, th, td{
 	 padding: 5px;
 }
 
+form {
+	background-color: rgb(244, 157, 173);
+	padding: 10px;
+	margin: 10px;
+	border-radius: 25px;
+}
+
 
 #container {
     width: 930px;
